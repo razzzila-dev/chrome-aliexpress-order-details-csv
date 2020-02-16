@@ -1,0 +1,31 @@
+{
+    "name": "Aliexpress order info in CSV (Excel)",
+    "description": "Allow you to download order data from Aliexpress order page in CSV (Excel compatible)",
+    "version": "1.0",
+    "permissions": [
+        "activeTab"
+    ],
+    "browser_action": {
+        "name": "Click to download order info"
+    },
+    "background": {
+      "persistent": false,
+      "scripts": [
+          "background.js"
+      ]
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*.aliexpress.com/order_detail.htm*"
+            ],
+            "js": [
+                "lib/parser.js"
+            ]
+        }
+    ],
+    "icons" : {
+        "48" : "icon.png"
+    },
+    "manifest_version": 2
+}
