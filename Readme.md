@@ -36,7 +36,7 @@ Clicking the extension icon on this page you will trigger parsing and downloadin
 
 ![New table downloaded file](docs/new_download.png)
 
-The file should look like this one:
+The file will look like this one:
 
 ![Result table](docs/result_table.png)
 
