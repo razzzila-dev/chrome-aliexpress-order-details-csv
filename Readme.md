@@ -1,7 +1,7 @@
 # Aliexpress order parser to the CSV (Excel)
 
 [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://choosealicense.com/licenses/mit/)
-[![GitHub release](https://img.shields.io/github/release/Naereen/StrapDown.js.svg)](https://github.com/razzzila-dev/chrome-aliexpress-order-details-csv/releases/)
+[![GitHub release](https://img.shields.io/badge/release-v0.1.0-4078c0.svg)](https://github.com/razzzila-dev/chrome-aliexpress-order-details-csv/releases/)
 [![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](mailto:dev@nikitaisakov.com?subject=[GitHub]%20Ask%20me%20anything)
 
 It is the example of an extension for Google Chrome which parses order details from Aliexpress to the CSV (Excel) format.
